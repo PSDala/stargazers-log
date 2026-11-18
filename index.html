@@ -2,10 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A log of repositories I've starred.">
     <title>Stargazers log</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
+    <main class="page-shell">
+      <header class="page-header">
+        <p class="eyebrow">A small collection of good ideas</p>
+        <h1>Stargazers <span>log</span></h1>
+        <p class="intro">Open-source projects worth keeping close.</p>
+      </header>
+
+      <section class="repository-section" aria-labelledby="repository-heading">
+        <div class="section-heading">
+          <h2 id="repository-heading">Starred repositories</h2>
+          <p id="repository-count" class="repository-count" aria-live="polite">Loading</p>
+        </div>
+        <ul id="repository-list" class="repository-list" aria-label="Starred repositories"></ul>
+        <p id="load-error" class="load-error" role="status" hidden>Repositories could not be loaded. Try again in a moment.</p>
+      </section>
+    </main>
   </body>
 </html>
