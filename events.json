@@ -1,0 +1,38 @@
+[
+  {
+    "name": "The Algorithms",
+    "owner": "TheAlgorithms",
+    "description": "Open source implementations of algorithms in many programming languages.",
+    "language": "Python",
+    "stars": 192000,
+    "url": "https://github.com/TheAlgorithms/Python",
+    "starredAt": "2026-10-12"
+  },
+  {
+    "name": "React",
+    "owner": "facebook",
+    "description": "The library for web and native user interfaces.",
+    "language": "JavaScript",
+    "stars": 240000,
+    "url": "https://github.com/facebook/react",
+    "starredAt": "2026-09-28"
+  },
+  {
+    "name": "TypeScript",
+    "owner": "microsoft",
+    "description": "TypeScript is a strongly typed programming language that builds on JavaScript.",
+    "language": "TypeScript",
+    "stars": 105000,
+    "url": "https://github.com/microsoft/TypeScript",
+    "starredAt": "2026-08-03"
+  },
+  {
+    "name": "D3",
+    "owner": "d3",
+    "description": "Bring data to life with SVG, Canvas and HTML.",
+    "language": "JavaScript",
+    "stars": 108000,
+    "url": "https://github.com/d3/d3",
+    "starredAt": "2026-06-17"
+  }
+]
